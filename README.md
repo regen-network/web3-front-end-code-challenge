@@ -5,7 +5,7 @@ This challenge consists of building a React application integrated with [Keplr](
 1. **Connects to Keplr** and displays your account balance on the [Regen Redwood Testnet](https://docs.regen.network/ledger/get-started/redwood-testnet.html).  
 2. **Allows the user to send REGEN tokens** from their wallet to another address on the Redwood testnet.
 
-**Key technologies**: React, TypeScript, Keplr and [@regen-network/api](https://www.npmjs.com/package/@regen-network/api) for querying and sending tokens.
+**Key technologies**: React, TypeScript, Keplr, [@regen-network/api](https://www.npmjs.com/package/@regen-network/api) and CosmJS for querying and sending tokens.
 
 ---
 
@@ -86,7 +86,7 @@ You can get some testnet token using https://docs.regen.network/ledger/get-start
 
 ### 3. Send REGEN Tokens
 
-Add a form (or modal) that allows the user to:
+Add a form (ideally in a modal) that allows the user to:
 
 - Enter a **recipient address**  
 - Enter an **amount** of REGEN to send  
